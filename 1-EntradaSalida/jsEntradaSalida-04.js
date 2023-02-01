@@ -7,7 +7,7 @@ function mostrar()
 	let datoIngresado;
 
 	datoIngresado = prompt("Ingrese su nombre");
-	document.getElementById("txtIdNombre").value=datoIngresado
+	document.getElementById("txtIdNombre").value=datoIngresado;
 
 
 	alert("Nombre ingresado con exito");
