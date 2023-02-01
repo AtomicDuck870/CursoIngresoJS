@@ -17,6 +17,6 @@ function SacarResto()
 	numUno=parseInt(numUnoText);
 	numDos=parseInt(numDosText);
 
-	mensaje="El resultado es " +(numUno%numDos);
+	mensaje="El resto es " +(numUno%numDos);
 	alert(mensaje);
 }
