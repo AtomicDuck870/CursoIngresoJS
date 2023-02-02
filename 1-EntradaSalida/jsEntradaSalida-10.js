@@ -7,8 +7,11 @@ function mostrarAumento()
 {
 	let numUnoText;
 	let numUno;
+	let porcentaje;
+	
+	porcentaje=25
 	
 	numUnoText=document.getElementById("txtIdImporte").value;
 	numUno=parseInt(numUnoText);
-	document.getElementById("txtIdResultado").value=Math.floor(numUno-numUno*25/100);
+	document.getElementById("txtIdResultado").value=numUno+numUno*porcentaje/100;
 }
