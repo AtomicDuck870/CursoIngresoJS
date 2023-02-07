@@ -13,7 +13,11 @@ function Rectangulo ()
     largoT=parseFloat(document.getElementById("txtIdLargo").value);
     anchoT=parseFloat(document.getElementById("txtIdAncho").value);
 
+<<<<<<< HEAD
     calculo=largoT+anchoT*2;
+=======
+    calculo=largoT+anchoT;
+>>>>>>> e0905ac167e5b615e561123ebae5a73b714541f0
 
     alert(calculo);
 }
