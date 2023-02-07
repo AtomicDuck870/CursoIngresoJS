@@ -1,5 +1,17 @@
 function mostrar()
 {
+	let edadI;
+
+	edadI = parseInt(document.getElementById("txtIdEdad").value);
+
+	if(edadI < 13 || edadI > 17)
+	{
+		alert("Usted NO es adolecente");
+	}
+	else
+	{
+		alert("false");
+	}
 	//tomo la edad  
 	alert("ok");
 
