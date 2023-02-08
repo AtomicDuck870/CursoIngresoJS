@@ -24,8 +24,4 @@ function CentigradosFahrenheit ()
     calculo=(cent * 9/5) + 32;
 
     alert(cent+" °Centigrados = "+calculo+" °Fahrenheit");
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e0905ac167e5b615e561123ebae5a73b714541f0
