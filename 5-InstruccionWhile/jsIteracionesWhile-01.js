@@ -13,3 +13,29 @@ function mostrar() //la funcion mostrar solo sirve para usar la ventana de texto
 	}
 	alert("Fuera del bucle.")
 }//FIN DE LA FUNCIÓN
+
+/*Erik corimayo
+While 1 bis- edad y nombre , informar el nombre de la persona mas vieja y la mas joven*/
+function mostrar()
+{
+	let edad;
+	let nombre;
+	let resp;
+
+	resp = "si";
+
+	while(resp == "si")
+	{
+		nombre = prompt("Ingrese nombre");
+		edad = parseInt(prompt("Ingrese edad"));
+		while(isNaN(nombre))
+		{
+			nombre = prompt("Error, ingrese un nombre.");
+		}
+		if(edad > edad)
+		{
+			
+		}
+		resp = prompt("Desea agregar mas datos? si/no");
+	}
+}//FIN DE LA FUNCIÓN
